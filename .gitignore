@@ -36,6 +36,34 @@ MANIFEST
 pip-log.txt
 pip-delete-this-directory.txt
 
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Do not upload datasets / images / model weights
+data/*
+!data/README.md
+sample_images/*
+!sample_images/README.md
+*.zip
+*.tar.gz
+
+# Model artifacts
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+
 # Unit test / coverage reports
 htmlcov/
 .tox/
